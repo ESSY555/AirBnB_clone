@@ -1,0 +1,140 @@
+.places {
+100-places.css justify-content: center;
+100-places.css display: flex;
+100-places.css flex-flow: row wrap;
+100-places.css width: 100%;
+}
+.places h1 {
+100-places.css font-size: 30px;
+}
+.listing {
+100-places.css display: flex;
+100-places.css flex-direction: row;
+100-places.css flex-wrap: wrap;
+100-places.css justify-content: center;
+100-places.css margin-bottom: 8%;
+}
+.places article {
+100-places.css width: 390px;
+100-places.css padding: 20px;
+100-places.css margin: 20px;
+100-places.css border: 1px solid #ff5a5f;
+100-places.css border-radius: 4px;
+}
+.places h2 {
+100-places.css font-size: 30px;
+100-places.css text-align: center;
+100-places.css margin: auto;
+}
+.list-motel{
+100-places.css display: flex;
+100-places.css flex-direction: row;
+100-places.css justify-content: space-between;
+100-places.css margin-top: 0px;
+100-places.css margin-bottom: 10px;
+}
+.price_by_night {
+100-places.css align-items: center;
+100-places.css min-width: 60px;
+100-places.css height: 60px;
+100-places.css font-size: 30px;
+100-places.css color: #ff5a5f;
+100-places.css border: 4px solid #ff5a5f;
+100-places.css border-radius: 50%;
+100-places.css padding: 5px;
+100-places.css justify-content: center;
+
+}
+.price_by_night p {
+100-places.css margin-top: 15px;
+100-places.css text-align: center;
+}
+
+.information {
+100-places.css height: 80px;
+100-places.css border-top:1px solid #dddddd;
+100-places.css border-bottom: 1px solid #dddddd;
+100-places.css display: flex;
+100-places.css justify-content: center;
+}
+
+.information p {
+100-places.css padding-top: 35px;
+100-places.css text-align: center;
+}
+.max_guest, .number_rooms, .number_bathrooms {
+100-places.css width: 100px;
+} 
+.max_guest {
+100-places.css background: url('../images/icon_group.png') no-repeat;
+100-places.css margin-top: 6px;
+100-places.css background-position-x: center ;
+}
+.number_rooms {
+100-places.css background: url('../images/icon_bed.png') no-repeat;
+100-places.css margin-top: 6px;
+100-places.css margin-left: 10px;
+100-places.css margin-right: 10px;
+100-places.css background-position-x:center ;
+}
+.number_bathrooms {
+100-places.css background: url('../images/icon_bath.png') no-repeat;
+100-places.css margin-top: 6px;
+100-places.css background-position-x: center;
+}
+.places .user {
+  margin: 20px auto 20px auto;
+}
+
+.amenities ul, .reviews ul {
+100-places.css list-style-type: none;
+100-places.css padding-left: 0px;
+}
+.amenities li {
+100-places.css padding-bottom: 3px;
+100-places.css text-indent: 30px;
+}
+.reviews li {
+100-places.css padding-bottom: 3px;
+}
+.amenities h2, .reviews h2{
+100-places.css font-size: 16px;
+100-places.css border-bottom: 1px solid #dddddd;
+100-places.css min-height: 0;
+100-places.css width: 100%;
+100-places.css text-align: left;
+}
+.pat {
+100-places.css background: url('../images/icon_pets.png') no-repeat;
+100-places.css background-origin: content-box;
+100-places.css background-size: contain;
+}
+.tv {
+100-places.css background: url('../images/icon_tv.png') no-repeat;
+100-places.css background-origin: content-box;
+100-places.css background-size: contain;
+}
+.wifi {
+100-places.css background: url('../images/icon_wifi.png') no-repeat;
+100-places.css background-origin: content-box;
+100-places.css background-size: contain;
+}
+.air {
+100-places.css background: url('../images/air-conditioner1.png') no-repeat;
+100-places.css background-origin: content-box;
+100-places.css background-size: contain;
+}
+.reviews {
+100-places.css margin-top: 40px;
+100-places.css width: 100%;
+100-places.css flex: 1;
+}
+.reviews h3 {
+100-places.css font-size: 14px;
+100-places.css text-align: left;
+100-places.css padding-left: 0;
+} 
+.reviews p{
+100-places.css font-size: 12px;
+100-places.css margin-top: -10px;
+}
